@@ -1,9 +1,7 @@
-package day1;
+package day2;
 
-public class POJO_PostReq {
+public class PojoClassTest {
 	
-	String name;
-	String job;
 	int id;
 	String username;
 	String firstname;
@@ -12,19 +10,7 @@ public class POJO_PostReq {
 	String password;
 	String phone;
 	int userstatus;
-
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public String getJob() {
-		return job;
-	}
-	public void setJob(String job) {
-		this.job = job;
-	}
+	
 	public int getId() {
 		return id;
 	}
@@ -73,7 +59,11 @@ public class POJO_PostReq {
 	public void setUserstatus(int userstatus) {
 		this.userstatus = userstatus;
 	}
+	
+	
 
+	
+	
 	
 	
 	

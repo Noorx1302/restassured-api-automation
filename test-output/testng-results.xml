@@ -1,17 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-14T21:55:05 IST" name="Default suite" finished-at="2025-01-14T21:55:08 IST" duration-ms="2997">
+  <suite started-at="2025-01-16T13:59:35 IST" name="Suite" finished-at="2025-01-16T13:59:43 IST" duration-ms="7262">
     <groups>
     </groups>
-    <test started-at="2025-01-14T21:55:05 IST" name="Default test" finished-at="2025-01-14T21:55:08 IST" duration-ms="2997">
-      <class name="day1.CookiesTesting">
-        <test-method signature="testCookies()[pri:0, instance:day1.CookiesTesting@45752059]" started-at="2025-01-14T21:55:05 IST" name="testCookies" finished-at="2025-01-14T21:55:08 IST" duration-ms="2922" status="PASS">
+    <test started-at="2025-01-16T13:59:35 IST" name="Test" finished-at="2025-01-16T13:59:43 IST" duration-ms="7262">
+      <class name="day3.CreateUserChaining">
+        <test-method signature="createUser(org.testng.ITestContext)[pri:0, instance:day3.CreateUserChaining@327514f]" started-at="2025-01-16T13:59:36 IST" name="createUser" finished-at="2025-01-16T13:59:40 IST" duration-ms="4612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@cad498c]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCookies -->
-      </class> <!-- day1.CookiesTesting -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- createUser -->
+      </class> <!-- day3.CreateUserChaining -->
+      <class name="day3.DeleteUserChaining">
+        <test-method signature="testDeleteUser(org.testng.ITestContext)[pri:0, instance:day3.DeleteUserChaining@44c03695]" started-at="2025-01-16T13:59:42 IST" name="testDeleteUser" finished-at="2025-01-16T13:59:43 IST" duration-ms="971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@cad498c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+      </class> <!-- day3.DeleteUserChaining -->
+      <class name="day3.UpdateUserChaining">
+        <test-method signature="testUpdateUser(org.testng.ITestContext)[pri:0, instance:day3.UpdateUserChaining@6150c3ec]" started-at="2025-01-16T13:59:41 IST" name="testUpdateUser" finished-at="2025-01-16T13:59:42 IST" duration-ms="735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@cad498c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+      </class> <!-- day3.UpdateUserChaining -->
+      <class name="day3.GetUserChaining">
+        <test-method signature="testGetUser(org.testng.ITestContext)[pri:0, instance:day3.GetUserChaining@1573f9fc]" started-at="2025-01-16T13:59:40 IST" name="testGetUser" finished-at="2025-01-16T13:59:41 IST" duration-ms="826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@cad498c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+      </class> <!-- day3.GetUserChaining -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
